@@ -1,33 +1,37 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Introduction from './components/Introduction.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="Man!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="intro-page">
+      <div class="wrapper">
+        <HelloWorld />
+      </div>
+      <div class="intro">
+        <Introduction />
+      </div> 
+  </div>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
+.intro-page {
+  display: flex;
+  justify-content: space-between;
+  width: 200%;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.wrapper {
+  flex: 1;
+  padding: 10px;
 }
 
-@media (min-width: 1024px) {
+.intro {
+  flex: 1;
+  padding: 10px;
+}
+
+/* @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
@@ -43,5 +47,5 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
-}
+} */
 </style>
