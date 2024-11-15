@@ -51,7 +51,9 @@
 
 <style scoped>
 .intro {
-    width: 120%;
+  width: 120%;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 p {
