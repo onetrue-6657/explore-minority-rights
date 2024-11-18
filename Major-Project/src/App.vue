@@ -3,6 +3,7 @@ import { ref } from 'vue';
 import Greetings from './components/Greetings.vue';
 import Introduction from './components/Introduction.vue';
 import List from './components/List.vue';
+import Tutorial from './components/Tutorial.vue';
 
 const showIntro = ref(false);
 
@@ -24,6 +25,9 @@ const handleShowIntro = () => {
       <div class="section list">
         <List />
       </div>
+      <div class="section tutorial">
+        <Tutorial />
+      </div>  
     </div>
 </template>
 
@@ -76,8 +80,10 @@ const handleShowIntro = () => {
 
 .list {
   height: 80%;
-  overflow-y: auto;
-  margin-bottom: 10%;
+}
+
+.tutorial {
+  height: 80%;
 }
 
 /* @media (min-width: 1024px) {

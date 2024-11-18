@@ -2,16 +2,20 @@
 </script>
 
 <template>
+    
     <div class="list">
+      <h1 class="green">List of Sources & Annotations</h1>
         <p>For this part of the list and annotation of important ideas and sources, I will cover some significant materials that would be helpful for the research on this topic. This part will be divided into two sections. The first are archives that contain rich, valuable, and massive primary sources, which will be very important and useful for research. The second part will be articles, especially scholarly research articles, on this topic. The perspectives of different scholars will give us a new and different opinion, which may give us new inspiration.</p>
         <br />
-        <p>My research on ethnic minority group rights began from the civil rights movement archive, https://www.crmvet.org/. This archive includes a huge amount of primary and secondary sources of this remarkable movement. It was created and maintained by a group of civil rights movement veterans, ensuring that these materials are relatively reliable and valuable. The archive includes four general categories: movement, activists, video/audio, and resources. And within these general categories, photo albums, videos, audio, reports, articles, letters, etc. are provided. To create a gallery wall focusing on the civil rights movement, I selected two law bills, a photo, and a primary report, focusing on the protest of racial segregation. Among these, the most important and direct is the photo, which shows a black girl marching with other people with the sentence “Do not buy segregation”, when protesting a racist local company. The visual impact that such a picture with large characters can be huge. The two law bills include the South segregation laws (also known as Jim Crow Laws) and the Civil Rights Act of 1964. The former was the trigger of the civil rights movement, while the latter was the result of the movement. The report came from a leader of the workers’ organization Fred Halstead, who recorded the bus boycott in Montgomery in 1956. This is a very useful primary source to get to know what happened during the movement.</p>
+        <p>My research on ethnic minority group rights began from the civil rights movement archive, <a href = "https://www.crmvet.org/">https://www.crmvet.org/</a>. This archive includes a huge amount of primary and secondary sources of this remarkable movement. It was created and maintained by a group of civil rights movement veterans, ensuring that these materials are relatively reliable and valuable. The archive includes four general categories: movement, activists, video/audio, and resources. And within these general categories, photo albums, videos, audio, reports, articles, letters, etc. are provided. To create a gallery wall focusing on the civil rights movement, I selected two law bills, a photo, and a primary report, focusing on the protest of racial segregation. Among these, the most important and direct is the photo, which shows a black girl marching with other people with the sentence “Do not buy segregation”, when protesting a racist local company. The visual impact that such a picture with large characters can be huge. The two law bills include the South segregation laws (also known as Jim Crow Laws) and the Civil Rights Act of 1964. The former was the trigger of the civil rights movement, while the latter was the result of the movement. The report came from a leader of the workers’ organization Fred Halstead, who recorded the bus boycott in Montgomery in 1956. This is a very useful primary source to get to know what happened during the movement.</p>
         <br />
         <p>From this, we can find more archives on the Internet to support our arguments further. These archives can focus on different ethnic minority groups and their experiences fighting for their rights. The most significant one is the U.S. National Archives, an independent agency of the U.S. government focusing on the preservation and documentation of government and historical records. When I searched the keyword “Asian American archives” on Google, I found that the National Archives has a special records archive of Asian American and Pacific Islander Records[5]. A visitor can research by topic, go over featured records, and explore further blogs, articles, and scholarly papers. Similarly, there are African American Heritage[6], Hispanic / Latino Heritage[7], etc.</p>
         <br />
         <p>Individual archives are also good references and sources helpful to our research. For example, the American Jewish Archives[8] is a very well-organized archive page with a similar structure to the https://www.crmvet.org/. The Jewish Archives collect, preserve, and make available for research, materials on the history of Jews and Jewish communities in the Western Hemisphere (primarily focusing on America) including data of a political, economic, social, cultural, and religious nature. Such an archive provides materials covering widely the topic and can be helpful to research. </p>
         <br />
-        <p>Another important category of research sources comes from scholarly papers. I will begin with my focal article and its worknet. The focal article “White Supremacy’s Horcrux and Why the Black Power Movement Almost Destroyed It”, by Dr. Marcus D. Watson[9], focuses on the topic of black power and ethnic identities, especially after the Black Powers Movement in the 1960s. It also tries to discuss why the Black Powers Movement almost destroyed the White Supremacy but at last failed. I found this peer-reviewed focal article on Academic Search Complete, specifically the EBSCOhost website. </p>
+        <p>
+          <img src="../assets/pic/Worknet.png" style="float: left; width: 60%; height: auto; margin-right: 4%; clear: both"><br />
+          Another important category of research sources comes from scholarly papers. I will begin with my focal article and its worknet. The focal article “White Supremacy’s Horcrux and Why the Black Power Movement Almost Destroyed It”, by Dr. Marcus D. Watson[9], focuses on the topic of black power and ethnic identities, especially after the Black Powers Movement in the 1960s. It also tries to discuss why the Black Powers Movement almost destroyed the White Supremacy but at last failed. I found this peer-reviewed focal article on Academic Search Complete, specifically the EBSCOhost website. </p>
         <br />
         <p>Meanwhile, the reference papers that the focal article refers to are also worth mentioning. One of the significant references Dr. Watson used to support his argument was “From Negro to Black to African American” by B. L. Martin, published in 1991.[10] B. Martin developed the argument that the transition of African Americans calling themselves, “negro” to “black” and “African American”, was more likely to be supported and motivated by the Black Powers Movement. The core opinion is that it was the Black Powers Movement instead of the Civil Rights Movement that led to this transition and promoted black identity and cohesion and that such a self-identity would greatly improve African Americans’ ethnic self-confidence. </p>
         <br />
@@ -27,15 +31,27 @@
     </div>
 </template>
 
-<style scoped>
+<style scoped>  
 .list {
   height: 100vh;
-  box-sizing: border-box;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2.6rem;
+  top: 10px;
+  text-align: center;
+  margin-bottom: 3%;
 }
 
 p {
-    font-size: 20px;
+  word-wrap: break-word;
+  font-size: 20px;
+  overflow-y: auto;
 }
+
 </style>
 
 <script>
