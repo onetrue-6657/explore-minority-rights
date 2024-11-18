@@ -46,3 +46,9 @@ p {
 }
 
 </style>
+
+<script>
+export default {
+  name: 'tutorialComponent'
+}
+</script>

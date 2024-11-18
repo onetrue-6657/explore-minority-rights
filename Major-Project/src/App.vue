@@ -4,6 +4,7 @@ import Greetings from './components/Greetings.vue';
 import Introduction from './components/Introduction.vue';
 import List from './components/List.vue';
 import Tutorial from './components/Tutorial.vue';
+import Reflection from './components/Reflection.vue';
 
 const showIntro = ref(false);
 
@@ -28,6 +29,9 @@ const handleShowIntro = () => {
       <div class="section tutorial">
         <Tutorial />
       </div>  
+      <div class="section reflection">
+        <Reflection />
+      </div>
     </div>
 </template>
 
