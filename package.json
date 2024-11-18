@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "tippy.js": "^6.3.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
