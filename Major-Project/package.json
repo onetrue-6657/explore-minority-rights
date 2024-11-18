@@ -11,6 +11,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "fullpage": "^1.5.1",
+    "fullpage.js": "^4.0.30",
     "tippy.js": "^6.3.7",
     "vue": "^3.5.12"
   },

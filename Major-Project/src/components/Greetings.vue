@@ -5,7 +5,7 @@
   <div class="greetings">
     <h1 class="green" >A Research Guide Into <br> Ethnic Minority Groups</h1>
     <h3>By Zheng Ni</h3>
-    <button>Introduction -></button>
+    <button @click="$emit('show-intro')">Introduction -></button>
   </div>
 </template> 
 

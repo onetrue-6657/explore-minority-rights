@@ -50,12 +50,6 @@
 </template>
 
 <style scoped>
-.intro {
-  width: 120%;
-  height: 100%;
-  box-sizing: border-box;
-}
-
 p {
     font-size: 20px;
 }
