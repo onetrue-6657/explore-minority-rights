@@ -55,12 +55,14 @@ const closeReference = () => {
       maintained by a group of civil rights movement veterans, ensuring that these materials are
       relatively reliable and valuable. The archive includes four general categories: movement,
       activists, video/audio, and resources. And within these general categories, photo albums,
-      videos, audio, reports, articles, letters, etc. are provided. To create a gallery wall
-      focusing on the civil rights movement, I selected two law bills, a photo, and a primary
-      report, focusing on the protest of racial segregation. Among these, the most important and
-      direct is the photo, which shows a black girl marching with other people with the sentence
-      <b>“Do not buy segregation”</b>, when protesting a racist local company. The visual impact
-      that such a picture with large characters can be huge. The two law bills include
+      videos, audio, reports, articles, letters, etc. are provided.
+    </div>
+    <div class="paragraph">
+      To create a gallery wall focusing on the civil rights movement, I selected two law bills, a
+      photo, and a primary report, focusing on the protest of racial segregation. Among these, the
+      most important and direct is the photo, which shows a black girl marching with other people
+      with the sentence <b>“Do not buy segregation”</b>, when protesting a racist local company. The
+      visual impact that such a picture with large characters can be huge. The two law bills include
       <b>the South segregation laws</b> (also known as
       <a href="https://www.history.com/topics/early-20th-century-us/jim-crow-laws" target="_blank"
         >Jim Crow Laws</a

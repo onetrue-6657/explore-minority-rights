@@ -5,6 +5,7 @@ import Introduction from './components/Introduction.vue'
 import List from './components/List.vue'
 import Tutorial from './components/Tutorial.vue'
 import Reflection from './components/Reflection.vue'
+import Footer from './components/Footer.vue'
 
 const showIntro = ref(false)
 
@@ -32,20 +33,38 @@ const handleShowIntro = () => {
     <div class="section reflection">
       <Reflection />
     </div>
+    <div class="section footer">
+      <Footer />
+    </div>
   </div>
 </template>
 
 <style scoped>
 #container {
   transition: transform 0.8s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 1;
 }
 
 .section {
   width: 200%;
-  display: flex;
   align-items: center;
   justify-content: center;
   transition: transform 1.5s ease;
+  margin-bottom: 10%;
+}
+
+.list {
+  height: 200%;
+}
+
+.tutorial {
+  height: 150%;
+}
+
+.reflection {
+  height: 100%;
 }
 
 .intro-page {
@@ -83,12 +102,13 @@ const handleShowIntro = () => {
   overflow-y: auto;
 }
 
-.list {
-  height: 80%;
-}
-
-.tutorial {
-  height: 80%;
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200%;
+  height: 20%;
+  margin-top: auto;
 }
 
 /* @media (min-width: 1024px) {
