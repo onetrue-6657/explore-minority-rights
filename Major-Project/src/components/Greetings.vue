@@ -1,13 +1,15 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <div class="greetings">
-    <h1 class="green" >A Research Guide Into <br> Ethnic Minority Groups</h1>
+    <h1 class="green">
+      A Research Guide Into <br />
+      Ethnic Minority Groups
+    </h1>
     <h3>By Zheng Ni</h3>
     <button @click="$emit('show-intro')">Introduction -></button>
   </div>
-</template> 
+</template>
 
 <style scoped>
 .greetings {
@@ -44,9 +46,9 @@ button::after {
   bottom: 0;
   width: 0;
   height: 6px;
-  
-  background-color: hsla(160, 100%, 37%, 1); 
-  transition: width 1.2s ease; 
+
+  background-color: hsla(160, 100%, 37%, 1);
+  transition: width 1.2s ease;
 }
 
 button:hover::after {
@@ -74,6 +76,6 @@ h3 {
 
 <script>
 export default {
-  name: 'GreetingsComponent'
+  name: 'GreetingsComponent',
 }
 </script>

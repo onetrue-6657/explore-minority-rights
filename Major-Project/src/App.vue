@@ -1,38 +1,38 @@
 <script setup>
-import { ref } from 'vue';
-import Greetings from './components/Greetings.vue';
-import Introduction from './components/Introduction.vue';
-import List from './components/List.vue';
-import Tutorial from './components/Tutorial.vue';
-import Reflection from './components/Reflection.vue';
+import { ref } from 'vue'
+import Greetings from './components/Greetings.vue'
+import Introduction from './components/Introduction.vue'
+import List from './components/List.vue'
+import Tutorial from './components/Tutorial.vue'
+import Reflection from './components/Reflection.vue'
 
-const showIntro = ref(false);
+const showIntro = ref(false)
 
 const handleShowIntro = () => {
-  showIntro.value = true;
-};
+  showIntro.value = true
+}
 </script>
 
 <template>
-    <div id="container">
-      <div class="section intro-page">
-        <div class="greet">
-          <Greetings @show-intro="handleShowIntro" />
-        </div>
-        <div class="intro" :class="{ 'intro-visible': showIntro }">
-          <Introduction />
-        </div> 
+  <div id="container">
+    <div class="section intro-page">
+      <div class="greet">
+        <Greetings @show-intro="handleShowIntro" />
       </div>
-      <div class="section list">
-        <List />
-      </div>
-      <div class="section tutorial">
-        <Tutorial />
-      </div>  
-      <div class="section reflection">
-        <Reflection />
+      <div class="intro" :class="{ 'intro-visible': showIntro }">
+        <Introduction />
       </div>
     </div>
+    <div class="section list">
+      <List />
+    </div>
+    <div class="section tutorial">
+      <Tutorial />
+    </div>
+    <div class="section reflection">
+      <Reflection />
+    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -42,7 +42,6 @@ const handleShowIntro = () => {
 
 .section {
   width: 200%;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,7 +62,7 @@ const handleShowIntro = () => {
   width: 100%;
   padding: 10px;
   align-items: center;
-  transition: flex 2.0s ease;
+  transition: flex 2s ease;
 }
 
 .intro {
@@ -72,7 +71,9 @@ const handleShowIntro = () => {
   width: 100%;
   padding: 10px;
   height: 100vh;
-  transition: flex 2.0s ease, max-height 3.0s ease;
+  transition:
+    flex 2s ease,
+    max-height 3s ease;
 }
 
 .intro-visible {
