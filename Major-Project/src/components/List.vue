@@ -48,7 +48,8 @@ const closeReference = () => {
       <figcaption>Picture Used in Gallery Wall</figcaption>
     </figure>
     <div class="paragraph">
-      My research on ethnic minority group rights began from the civil rights movement archive,
+      My research on ethnic minority group rights began from
+      <b>the civil rights movement archive</b>,
       <a href="https://www.crmvet.org/">https://www.crmvet.org/</a>. This archive includes a huge
       amount of primary and secondary sources of this remarkable movement. It was created and
       maintained by a group of civil rights movement veterans, ensuring that these materials are
@@ -57,33 +58,36 @@ const closeReference = () => {
       videos, audio, reports, articles, letters, etc. are provided. To create a gallery wall
       focusing on the civil rights movement, I selected two law bills, a photo, and a primary
       report, focusing on the protest of racial segregation. Among these, the most important and
-      direct is the photo, which shows a black girl marching with other people with the sentence “Do
-      not buy segregation”, when protesting a racist local company. The visual impact that such a
-      picture with large characters can be huge. The two law bills include the South segregation
-      laws (also known as Jim Crow Laws) and the Civil Rights Act of 1964. The former was the
-      trigger of the civil rights movement, while the latter was the result of the movement. The
-      report came from a leader of the workers’ organization Fred Halstead, who recorded the bus
-      boycott in Montgomery in 1956. This is a very useful primary source to get to know what
-      happened during the movement.
+      direct is the photo, which shows a black girl marching with other people with the sentence
+      <b>“Do not buy segregation”</b>, when protesting a racist local company. The visual impact
+      that such a picture with large characters can be huge. The two law bills include
+      <b>the South segregation laws</b> (also known as
+      <a href="https://www.history.com/topics/early-20th-century-us/jim-crow-laws" target="_blank"
+        >Jim Crow Laws</a
+      >) and <b>the Civil Rights Act of 1964</b>. The former was the trigger of the civil rights
+      movement, while the latter was the result of the movement. The report came from a leader of
+      the workers’ organization Fred Halstead, who recorded the bus boycott in Montgomery in 1956.
+      This is a very useful primary source to get to know what happened during the movement.
     </div>
     <div class="paragraph">
       From this, we can find more archives on the Internet to support our arguments further. These
       archives can focus on different ethnic minority groups and their experiences fighting for
       their rights. The most significant one is the U.S. National Archives, an independent agency of
       the U.S. government focusing on the preservation and documentation of government and
-      historical records. When I searched the keyword “Asian American archives” on Google, I found
-      that the National Archives has a special records archive of Asian American and Pacific
-      Islander Records <span class="reference" @click="handleReferenceClick(5, $event)">[5]</span>.
-      A visitor can research by topic, go over featured records, and explore further blogs,
-      articles, and scholarly papers. Similarly, there are African American Heritage
-      <span class="reference" @click="handleReferenceClick(6, $event)">[6]</span>, Hispanic / Latino
-      Heritage <span class="reference" @click="handleReferenceClick(7, $event)">[7]</span>, etc.
+      historical records. When I searched the keyword “Asian American archives” on <b>Google</b>, I
+      found that the <b>National Archives</b> has a special records archive of
+      <b>Asian American and Pacific Islander Records</b>
+      <span class="reference" @click="handleReferenceClick(5, $event)">[5]</span>. A visitor can
+      research by topic, go over featured records, and explore further blogs, articles, and
+      scholarly papers. Similarly, there are <b>African American Heritage</b>
+      <span class="reference" @click="handleReferenceClick(6, $event)">[6]</span>,
+      <b>Hispanic / Latino Heritage</b>
+      <span class="reference" @click="handleReferenceClick(7, $event)">[7]</span>, etc.
     </div>
     <div class="paragraph">
       Individual archives are also good references and sources helpful to our research. For example,
-      the American Jewish Archives<span class="reference" @click="handleReferenceClick(8, $event)"
-        >[8]</span
-      >
+      the <b>American Jewish Archives</b
+      ><span class="reference" @click="handleReferenceClick(8, $event)">[8]</span>
       is a very well-organized archive page with a similar structure to the https://www.crmvet.org/.
       The Jewish Archives collect, preserve, and make available for research, materials on the
       history of Jews and Jewish communities in the Western Hemisphere (primarily focusing on
@@ -97,8 +101,10 @@ const closeReference = () => {
     <div class="paragraph">
       Another important category of research sources comes from scholarly papers. I will begin with
       my focal article and its worknet. The focal article
-      <i>“White Supremacy’s Horcrux and Why the Black Power Movement Almost Destroyed It”</i>, by
-      Dr. Marcus D. Watson
+      <b
+        ><i>“White Supremacy’s Horcrux and Why the Black Power Movement Almost Destroyed It”</i>, by
+        Dr. Marcus D. Watson</b
+      >
       <span class="reference" @click="handleReferenceClick(9, $event)">[9]</span>, focuses on the
       topic of black power and ethnic identities, especially after the Black Powers Movement in the
       1960s. It also tries to discuss why the Black Powers Movement almost destroyed the White
@@ -108,7 +114,7 @@ const closeReference = () => {
     <div class="paragraph">
       Meanwhile, the reference papers that the focal article refers to are also worth mentioning.
       One of the significant references Dr. Watson used to support his argument was
-      <i>“From Negro to Black to African American”</i> by B. L. Martin, published in 1991.
+      <b><i>“From Negro to Black to African American”</i> by B. L. Martin</b>, published in 1991.
       <span class="reference" @click="handleReferenceClick(10, $event)">[10]</span> B. Martin
       developed the argument that the transition of African Americans calling themselves, “negro” to
       “black” and “African American”, was more likely to be supported and motivated by the Black
@@ -121,7 +127,8 @@ const closeReference = () => {
       <figcaption>Civil Rights Movement Archive</figcaption>
     </figure>
     <div class="paragraph">
-      The paper <i>“Ontological Terror: Blackness, Nihilism, and Emancipation.”</i> by C. Warren,
+      The paper
+      <b><i>“Ontological Terror: Blackness, Nihilism, and Emancipation.”</i> by C. Warren</b>,
       published in 2018
       <span class="reference" @click="handleReferenceClick(11, $event)">[11]</span>, intervenes in
       Afro-pessimism, Heideggerian metaphysics, and black humanist philosophy by positing that the
@@ -136,18 +143,24 @@ const closeReference = () => {
       a very valuable focus of this topic.
     </div>
     <div class="paragraph">
-      Such analysis can be done for many papers, and using such analysis and papers as references
-      can make the research more reliable and highly qualified. And, do not limit yourself to some
-      specified articles. A very important step in doing great research is to widely search for
-      sources to support the arguments. For this topic focusing on ethnic minority groups in U.S.
-      society, we can do further research on, for example, Asian Americans and their civil rights.
+      Such analysis can be done for many papers, and
+      <b
+        >using such analysis and papers as references can make the research more reliable and highly
+        qualified.</b
+      >
+      And, do not limit yourself to some specified articles. A very important step in doing great
+      research is to widely search for sources to support the arguments. For this topic focusing on
+      ethnic minority groups in U.S. society, we can do further research on, for example, Asian
+      Americans and their civil rights.
     </div>
     <div class="paragraph">
       I found this article when searching the keyword “Asian American Rights” on the EBSCOhost.
-      <i
-        >“The ‘Newest ‘Yellow Peril’’: How American Legal History Shaped The Rise In Asian American
-        Hate Crimes In The COVID-19 Pandemic”</i
-      >, by Adam Minoru Yasui Estacio
+      <b
+        ><i
+          >“The ‘Newest ‘Yellow Peril’’: How American Legal History Shaped The Rise In Asian
+          American Hate Crimes In The COVID-19 Pandemic”</i
+        >, by Adam Minoru Yasui Estacio</b
+      >
       <span class="reference" @click="handleReferenceClick(12, $event)">[12]</span>. This article
       tries to analyze and explain why Asian immigrants exclusive stereotypes in other Americans’
       minds, how American legal history and law bills have excluded Asian Americans, and why and how
@@ -157,10 +170,12 @@ const closeReference = () => {
     <div class="paragraph">
       Another article focuses more on these “foreigners” or “others’” status and lives in society,
       especially after some big societal incidents.
-      <i
-        >“The Civil Rights of "Others": Antiterrorism, The Patriot Act, and Arab and South Asian
-        American Rights in Post-9/11 American Society.”</i
-      >, by Vijay Sekhon
+      <b
+        ><i
+          >“The Civil Rights of "Others": Antiterrorism, The Patriot Act, and Arab and South Asian
+          American Rights in Post-9/11 American Society.”</i
+        >, by Vijay Sekhon</b
+      >
       <span class="reference" @click="handleReferenceClick(13, $event)">[13]</span>, focuses on
       South Asian Americans and Arab Americans’ lives and hate crimes towards them after 9/11
       terrorism attack. More seriously, the Bush Administration undermined these ethnicities’
@@ -235,6 +250,16 @@ h1 {
   top: 10px;
   text-align: center;
   margin-bottom: 3%;
+}
+
+a,
+b {
+  color: hsla(160, 100%, 37%, 1);
+  font-weight: 600;
+}
+
+a {
+  text-decoration: underline;
 }
 
 .reference {
