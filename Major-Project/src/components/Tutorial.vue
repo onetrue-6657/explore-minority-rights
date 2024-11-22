@@ -278,7 +278,6 @@ const closeReference = () => {
   margin-right: 8vw;
   text-align: justify;
   font-size: 20px;
-  overflow-y: auto;
   overflow-x: hidden;
 }
 

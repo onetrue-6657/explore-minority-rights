@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import Greetings from './components/Greetings.vue'
 import Introduction from './components/Introduction.vue'
 import List from './components/List.vue'
@@ -8,32 +8,62 @@ import Reflection from './components/Reflection.vue'
 import Footer from './components/Footer.vue'
 
 const showIntro = ref(false)
+const showLicense = ref(false)
 
 const handleShowIntro = () => {
   showIntro.value = true
 }
+
+const scrollToSection = (sectionId) => {
+  const section = document.getElementById(sectionId)
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' })
+    router.push(`/${sectionId}`)
+  }
+}
+
+const handleShowLicense = () => {
+  showLicense.value = !showLicense.value
+}
+
+// onMounted(() => {
+//   document.body.style.overflow = 'hidden'
+// })
 </script>
 
 <template>
   <div id="container">
-    <div class="section intro-page">
+    <section id="intro-page" class="intro-page">
       <div class="greet">
         <Greetings @show-intro="handleShowIntro" />
       </div>
       <div class="intro" :class="{ 'intro-visible': showIntro }">
         <Introduction />
       </div>
-    </div>
-    <div class="section list">
+    </section>
+    <section id="list" class="list">
       <List />
-    </div>
-    <div class="section tutorial">
+    </section>
+    <section id="tutorial" class="tutorial">
       <Tutorial />
-    </div>
-    <div class="section reflection">
+    </section>
+    <section id="reflection" class="reflection">
       <Reflection />
+    </section>
+    <div class="nav-buttons">
+      <button @click="scrollToSection('intro-page')">Intro</button>
+      <button @click="scrollToSection('list')">List</button>
+      <button @click="scrollToSection('tutorial')">Tutorial</button>
+      <button @click="scrollToSection('reflection')">Reflection</button>
+      <button
+        id="showLicenseButton"
+        @click="handleShowLicense()"
+        :class="{ expanded: showLicense }"
+      >
+        CC License
+      </button>
     </div>
-    <div class="section footer">
+    <div class="license" :class="{ 'license-visible': showLicense }">
       <Footer />
     </div>
   </div>
@@ -47,8 +77,8 @@ const handleShowIntro = () => {
   gap: 1;
 }
 
-.section {
-  width: 200%;
+section {
+  width: 100%;
   align-items: center;
   justify-content: center;
   transition: transform 1.5s ease;
@@ -57,19 +87,22 @@ const handleShowIntro = () => {
 
 .list {
   height: 200%;
+  width: 80vw;
 }
 
 .tutorial {
   height: 150%;
+  width: 80vw;
 }
 
 .reflection {
   height: 100%;
+  width: 80vw;
 }
 
 .intro-page {
   display: flex;
-  width: 200%;
+  width: 120%;
   align-items: center;
   justify-content: space-between;
   height: 100vh;
@@ -81,6 +114,7 @@ const handleShowIntro = () => {
   width: 100%;
   padding: 10px;
   align-items: center;
+  justify-content: center;
   transition: flex 2s ease;
 }
 
@@ -89,10 +123,10 @@ const handleShowIntro = () => {
   overflow: hidden;
   width: 100%;
   padding: 10px;
-  height: 100vh;
+  height: auto;
   transition:
     flex 2s ease,
-    max-height 3s ease;
+    height 3s ease;
 }
 
 .intro-visible {
@@ -102,13 +136,50 @@ const handleShowIntro = () => {
   overflow-y: auto;
 }
 
-.footer {
+.license {
+  position: fixed;
+  bottom: 20px;
+  right: -300%;
+  text-align: center;
+  font-size: 0.8rem;
+  transform: translateX(-50%);
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: transform 1.2s ease;
+}
+
+.license-visible {
+  transform: translateX(-450%);
+}
+
+.nav-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200%;
-  height: 20%;
-  margin-top: auto;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-buttons button {
+  font-size: 0.85rem;
+  background-color: hsla(160, 100%, 37%, 1);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition:
+    background-color 0.5s ease,
+    transform 0.5s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: rgba(12, 206, 141, 0.534);
+  transform: scale(1.05);
 }
 
 /* @media (min-width: 1024px) {

@@ -45,7 +45,14 @@ const closeReference = () => {
     </div>
     <figure class="float-left object-pic">
       <img src="../assets/pic/objectpic.jpg" alt="Object Picture" />
-      <figcaption>Picture Used in Gallery Wall</figcaption>
+      <figcaption>
+        Picture Used in
+        <a
+          href="https://buckeyemailosu-my.sharepoint.com/:p:/r/personal/ni_459_buckeyemail_osu_edu/_layouts/15/Doc.aspx?sourcedoc=%7BE96A97E3-334B-4EDF-8010-F47B678BF312%7D&file=MP%201.3%20-%20Gallery%20Wall.pptx&action=edit&mobileredirect=true"
+          target="_blank"
+          >Gallery Wall</a
+        >
+      </figcaption>
     </figure>
     <div class="paragraph">
       My research on ethnic minority group rights began from
@@ -125,7 +132,9 @@ const closeReference = () => {
       that such a self-identity would greatly improve African Americans’ ethnic self-confidence.
     </div>
     <figure class="float-left crmvet-pic">
-      <img src="../assets/pic/crmvet.png" alt="crmvet-pic" />
+      <a href="https://crmvet.org" target="_blank">
+        <img src="../assets/pic/crmvet.png" alt="crmvet-pic" />
+      </a>
       <figcaption>Civil Rights Movement Archive</figcaption>
     </figure>
     <div class="paragraph">
