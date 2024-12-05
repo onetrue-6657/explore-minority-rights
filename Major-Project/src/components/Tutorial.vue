@@ -358,9 +358,13 @@ figcaption {
   color: #ba0c2f;
   cursor: pointer;
   text-decoration: underline;
+  justify-content: center;
+  justify-items: center;
 }
 
 .reference-popup {
+  display: flex;
+  justify-items: center;
   position: absolute;
   color: #ba0c2f;
   transform: translate(-50%, -50%);
@@ -374,20 +378,24 @@ figcaption {
   overflow-y: auto;
 }
 
-.reference-popup button {
+button {
   display: block;
   margin-left: auto;
-  margin-bottom: 10px;
+  margin-right: auto;
+  font-size: 0.85rem;
   background-color: #ba0c2f;
   color: white;
   border: none;
-  padding: 5px 10px;
+  padding: 10px 20px;
+  margin-top: 5px;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.5s ease;
 }
 
-.reference-content {
-  font-size: 1rem;
-  line-height: 1.5;
+button:hover {
+  background-color: #c61f40;
+  transform: scale(1.05);
 }
 
 .reference-content a {

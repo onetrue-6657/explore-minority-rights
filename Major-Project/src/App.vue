@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 import Greetings from './components/Greetings.vue'
 import Introduction from './components/Introduction.vue'
 import List from './components/List.vue'
@@ -25,10 +25,6 @@ const scrollToSection = (sectionId) => {
 const handleShowLicense = () => {
   showLicense.value = !showLicense.value
 }
-
-// onMounted(() => {
-//   document.body.style.overflow = 'hidden'
-// })
 </script>
 
 <template>
