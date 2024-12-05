@@ -28,7 +28,7 @@ h1 {
 }
 
 button {
-  color: hsla(160, 100%, 37%, 1);
+  color: #ba0c2f;
   font-weight: 700;
   font-size: 2rem;
   margin-top: 2%;
@@ -47,7 +47,7 @@ button::after {
   width: 0;
   height: 6px;
 
-  background-color: hsla(160, 100%, 37%, 1);
+  background-color: #ba0c2f;
   transition: width 1.2s ease;
 }
 

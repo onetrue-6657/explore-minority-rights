@@ -166,7 +166,7 @@ section {
 
 .nav-buttons button {
   font-size: 0.85rem;
-  background-color: hsla(160, 100%, 37%, 1);
+  background-color: #ba0c2f;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -178,7 +178,7 @@ section {
 }
 
 .nav-buttons button:hover {
-  background-color: rgba(12, 206, 141, 0.534);
+  background-color: #c61f40;
   transform: scale(1.05);
 }
 

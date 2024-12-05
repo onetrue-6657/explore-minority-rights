@@ -85,7 +85,7 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 22px;
-  color: hsla(160, 100%, 37%, 1);
+  color: #ba0c2f;
 }
 
 figcaption {
@@ -112,7 +112,7 @@ figcaption {
 
 a,
 b {
-  color: hsla(160, 100%, 37%, 1);
+  color: #ba0c2f;
   font-weight: 600;
 }
 
@@ -126,14 +126,14 @@ a {
 }
 
 .reference {
-  color: hsla(160, 100%, 37%, 1);
+  color: #ba0c2f;
   cursor: pointer;
   text-decoration: underline;
 }
 
 .reference-popup {
   position: absolute;
-  color: hsla(160, 100%, 37%, 1);
+  color: #ba0c2f;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.788);
   border: 1px solid #ccc;
@@ -149,7 +149,7 @@ a {
   display: block;
   margin-left: auto;
   margin-bottom: 10px;
-  background-color: hsla(160, 100%, 37%, 1);
+  background-color: #ba0c2f;
   color: white;
   border: none;
   padding: 5px 10px;
